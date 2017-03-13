@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">DispathMechanismTest</string>
+    <string name="view_dispatch">先执行onTouch后onClick，如果onTouch返回true，则不执行onClick。先来看一下View的dispatchTouchEvent()源码</string>
+    <string name="result">说明onClick是onTouchEvent里调用的\n1. onTouch和onTouchEvent有什么区别，又该如何使用？\n
+从源码中可以看出，这两个方法都是在View的dispatchTouchEvent中调用的，onTouch{ 优先于 }onTouchEvent 执行。如果在onTouch方法中通过返回true将事件消费掉，onTouchEvent将不会再执行</string>
+</resources>
