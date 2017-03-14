@@ -1,2 +1,2 @@
 # AndroidDispathTest
-###view和viewgroup的分发机制测试
+###view和viewgroup的事件分发测试
